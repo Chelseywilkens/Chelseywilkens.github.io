@@ -1,6 +1,26 @@
 body {
-	background-color: grey;
+	background-color: FFFFFF;
+	text-align: left;
 }
-h1, p {
-	color: white;
+h1, h3, p {
+	color: 2B2121;
+	font-family: plantin, serif;
+	font-weight: normal
+
+}
+h1 {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+h2 {
+	color; 2B2121
+	font-family: plantin, serif;
+	font-weight: bold;
+}
+h3{
+	font-weight: small
+}
+a {
+	font-style: italic;
+	text-decoration: none;
 }
