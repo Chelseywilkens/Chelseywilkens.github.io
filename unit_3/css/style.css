@@ -1,5 +1,5 @@
 * {margin:0;padding:0;box-sizing:border-box;}
-img { width:300px; }
+img { width:500px; }
 body {
 	background-color: #E6FFDC;
 	color: #2B2121;
@@ -43,7 +43,7 @@ a {
 
 .cta {
     display: inline-block;
-    background: orange;
+    background: navy;
     color: #fff;
     padding: 1em 2em;
     margin-top: 1em;
