@@ -9,6 +9,10 @@ body {
 	font-family: 'Playfair Display', serif;
 	line-height:1.3;
 }
+#wrapper {
+	background-color: #BFE8D5;
+	width:960px;
+}
 .navlinks{
 	font-family: cinzel, serif;
 	color: navy;
