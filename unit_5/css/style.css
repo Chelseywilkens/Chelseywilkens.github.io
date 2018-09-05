@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Playfair+Display:400,900i');
 * {margin:0;padding:0;box-sizing:border-box;}
-img { width:30em; }
+img {width:30em;}
 body {
 	background-color: #E6FFDC;
 	color: #2B2121;
@@ -17,14 +17,12 @@ body {
 	margin: 20px;
 }
 section, article {
-	width: 30em;
 	padding: 5em 0;
-	margin: 2em auto;
 }
 header {
-	background-color: #C6E2E8;
 	padding: 20px;
-	font-size: 1.8em;
+	float: left;
+	color: #fff;
 }
 p class{ 
 	background-color: #E6FFDC;
@@ -41,7 +39,7 @@ h1 {
 	font-size: 2em;
 }
 h2 {
-	font-style: black;
+	font-weight: 700;
 	font-size: 1.8em;
 	text-transform: uppercase;
 }
@@ -78,4 +76,15 @@ a {
     color: #fff;
     padding: 1em 2em;
     margin-top: 1em;
+}
+#intro {
+	background: url(../images/chelsey2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	height: 95vh;
+	padding: 10em 0 0 5em;
+}
+#intro div {
+	width:30em;
 }
