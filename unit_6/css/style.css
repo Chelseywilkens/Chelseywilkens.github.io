@@ -49,6 +49,14 @@ article{
 	background-color: red;
 	float: left;
 }
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content: " ";
+	display: block;
+	clear: both;
+}
 header {
 	padding: 20px;
 	float: left;
