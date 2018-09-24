@@ -39,7 +39,7 @@ header {
 	float: left;
 	color: #fff;
 }
-.article {
+article {
 	padding: 20px;
 	float: left;
 	width: 50%;
@@ -95,8 +95,16 @@ a {
 #about {
 	border: 1px black solid;
     padding: 20px;
-    float: left;
-    width: 50%;
+}
+#chels_img {
+    padding: 20px;
+    float:left;
+    width: 45%;
+}
+#chels_about {
+    padding: 20px;
+    float:right;
+    width: 55%;
 }
 
 img {
