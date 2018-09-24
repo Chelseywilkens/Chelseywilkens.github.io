@@ -39,6 +39,11 @@ header {
 	float: left;
 	color: #fff;
 }
+.articles {
+	padding: 20px;
+	float: left;
+	width: 50%;
+}
 h1 {
 	font-weight: 800;
 	text-transform: uppercase;
@@ -88,9 +93,17 @@ a {
 }
 
 #about {
-	 border: 1px black solid;
+	border: 1px black solid;
     padding: 20px;
+    float: left;
+    width: 50%;
 }
+
+img {
+	display: block;
+	width: 50%;
+}
+
 footer {
 	border: 1px black solid;
     padding: 20px;
