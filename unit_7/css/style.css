@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Playfair+Display:400,900i');
+* {margin:0;padding:0;box-sizing:border-box;}
+body {
+	background-color: #F8EBFF;
+	color: #2B2121;
+	font-size: 16px; /*1em = 16px*/
+	text-align: left;
+	font-family: 'Playfair Display', serif;
+	line-height:1.3;
+}
+.logo {
+	font-family: 'Playfair Display', serif;
+	font-size:4em;
+}
+nav a {
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #ffffff;
+}
+nav a:visited{
+	color: #00284F;
+}
+nav a:hover{
+	border-bottom: 1px solid #ffffff;
+}
+section, article {
+	 padding: 5em 0;
+}
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content: " ";
+	display: block;
+	clear: both;
+}
+header {
+	padding: 20px;
+	float: left;
+	color: #fff;
+}
+article {
+	padding: 20px;
+	float: left;
+	width: 50%;
+}
+h1 {
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 2em;
+}
+h2 {
+	font-weight: 700;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+h3 {
+	font-size: 1.25em;
+	font-family: 'Julius Sans One', serif;
+	font-weight:400;
+}
+hr{
+	border:none;
+	height: 3px;
+	background-color:#001356;
+	width: 2em;
+	margin: 1em 0;
+}
+a {
+	font-family: 'Julius Sans One', serif;
+	font-size: 1em;
+	font-style: italic;
+	text-decoration: none;
+}
+
+.cta {
+    display: inline-block;
+    background: #00284F;
+    color: #fff;
+    padding: 1em 2em;
+    margin-top: 1em;
+}
+#intro {
+	background: url(../images/chelsey2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	height: 95vh;
+	padding: 10em 0 0 5em;
+}
+#intro div {
+	width:30em;
+}
+
+#about {
+	border: 1px black solid;
+    padding: 20px;
+}
+#chels_img {
+    padding: 20px;
+    float:left;
+    width: 45%;
+}
+#chels_about {
+    padding: 20px;
+    float:right;
+    width: 55%;
+}
+
+img {
+	display: block;
+	width: 50%;
+}
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float:left;
+    width: 30%;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
+}
+
+footer {
+	border: 1px black solid;
+    padding: 20px;
+}
